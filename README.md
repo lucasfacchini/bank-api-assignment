@@ -14,3 +14,7 @@ Note: Python 3.6 is required.
 ```
 python -m unittest
 ```
+
+# Test Results #
+
+![Results](results.png)
