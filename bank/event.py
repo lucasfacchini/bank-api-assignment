@@ -16,6 +16,8 @@ class Event:
         elif self.type == self.TYPE_TRANSFER:
             return self.transfer()
         else:
+            print('Tipo de operação não reconhecida', str(self.event))
+
             return False, {}
 
     def validate_deposit(self):
